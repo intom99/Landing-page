@@ -1,0 +1,77 @@
+body{
+	padding-top: 50px;
+}
+.jumbotron{
+	text-shadow: black 1px 1px;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+}
+.cover{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.background-header{
+	background-image: url('../image/bg-jumbo-2.jpg');
+	background-color: #fafbfc;
+	height: 500px;
+	background-position: center;
+	position: relative;
+}
+.button-primer{
+	background-color: #9400D3;
+	border-color: #7952b3;
+	color: #fff;
+	text-shadow: 0px 0px;
+}
+.button-primer:hover{
+	background-color: #4B0082;
+	color: #fff;
+}
+.btn-secondary{
+	text-shadow: 0px 0px;
+}
+
+/*==== section ====*/
+.service-style{
+	margin-top: 15px;
+	background-color: #fafbfc;
+}
+/*=====*/
+.text-grape{
+	color: #4B0082;
+}
+.bg-red{
+	background-color: indigo;
+}
+/*====*/
+h2:before, h2:after{
+	background-color: #4B0082;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	width: 25%;
+}
+h2:before{
+	right: 0.5em;
+	margin-left: -50%
+}
+h2:after{
+	margin-right: -50%;
+	left: 0.5em;
+}
+/*====product*/
+.button-secondary{
+	background-color: transparent;
+	border-color: white;
+	color: #4B0082;
+}
+.button-secondary:hover{
+	background-color: #4B0082;
+	border-color: white;
+	color: white;
+	opacity: 80%;
+}
